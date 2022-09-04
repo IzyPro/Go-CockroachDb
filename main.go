@@ -16,14 +16,14 @@ func main() {
 	port := "8082"
 	log.Println("Running on http://localhost:" + port)
 	//INITIALIZE DATABASE
-	db := InitDatabase()
+	//db := InitDatabase()
 	// USE DEPENDENCY INJECTION TO AVOID CREATING MULTIPLE DB INSTANCES
-	h := New(db)
+	//h := New(db)
 
 	r := chi.NewRouter()
 	r.Get("/", hello)
-	r.Get("/products", h.getAllProducts)
-	r.Post("/product", h.addProduct)
+	// r.Get("/products", h.getAllProducts)
+	// r.Post("/product", h.addProduct)
 
 	log.Fatal(http.ListenAndServe(":"+port, r))
 }
