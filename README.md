@@ -1,3 +1,7 @@
-![CockroachDB + Gorm + Chi](https://github.com/IzyPro/Go-CockroachDb/blob/main/Frame%203.png)
-# Set Up CockroachDB in your Golang Application
-This repository holds the code for an article i wrote on setting up CockroachDB in your Golang application.
+
+# Golang Article Codebase
+This repository holds the code base for a series of articles i wrote around Golang.
+
+[https://izypro.hashnode.dev/](https://izypro.hashnode.dev/)
+
+[- Set Up CockroachDB in you Golang Application](https://izypro.hashnode.dev/set-up-cockroachdb-in-your-golang-application)
