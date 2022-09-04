@@ -36,6 +36,7 @@ type Product struct {
 }
 
 func hello(w http.ResponseWriter, r *http.Request) {
+	log.Println(r.Method + fmt.Sprintf(" request initiated on %s", r.Host) + r.RequestURI)
 	w.Write([]byte("Hello World!"))
 }
 
